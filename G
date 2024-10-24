@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charity Organization</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <h1>Charity for Hope</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#mission">Our Mission</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#donate">Donate</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Help us make a difference</h2>
+    <p>Your donation can change lives.</p>
+    <a href="#donate" class="btn">Donate Now</a>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>We are a non-profit organization dedicated to supporting underprivileged communities around the world.</p>
+  </section>
+
+  <section id="mission" class="section">
+    <h2>Our Mission</h2>
+    <p>We aim to provide essential resources such as food, education, and medical aid to those in need.</p>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Our Projects</h2>
+    <ul>
+      <li><strong>Food Drive 2024:</strong> Distributing meals to families in need.</li>
+      <li><strong>Back to School Campaign:</strong> Providing school supplies to children.</li>
+      <li><strong>Medical Aid:</strong> Offering free health check-ups in rural areas.</li>
+    </ul>
+  </section>
+
+  <section id="donate" class="section donate">
+    <h2>Donate Now</h2>
+    <p>Make a difference today by donating to our cause.</p>
+    <a href="#" class="btn">Donate via PayPal</a>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+    <p>Email: info@charityforhope.org | Phone: +123 456 7890</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Charity for Hope. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
